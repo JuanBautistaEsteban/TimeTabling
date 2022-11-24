@@ -394,6 +394,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeTabling.Application\TimeTabling.Application.csproj">
+      <Project>{8b0124fd-dfab-4a6e-a64a-9ccb5d7766b4}</Project>
+      <Name>TimeTabling.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeTabling.CORE\TimeTabling.CORE.csproj">
+      <Project>{0d4204a3-3485-4931-adb7-b19a4773b227}</Project>
+      <Name>TimeTabling.CORE</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
